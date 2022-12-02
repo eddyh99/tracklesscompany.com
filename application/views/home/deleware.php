@@ -1,6 +1,6 @@
 <nav class="navbar bg-black">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?= base_url(); ?>">
             <img src="<?= base_url(); ?>assets/images/tracklesscompany-fit.png">
         </a>
         <a href="https://tracklessproject.com" class="bg-trackless me-5" data-bs-toggle="offcanvas"
@@ -23,7 +23,7 @@
                     <h1 class="text-slider-indo mb-3 f-poppins">WELCOME TO DELAWARE</h1>
                 </div>
                 <div class="row d-flex justify-content-center align-items-center flex-column">
-                    <div class="col-4 my-3">
+                    <div class="col-12 col-sm-6 col-lg-4 my-3">
                         <a href="" class="btn-indo f-inter py-3 px-5 text-center">
                             DELAWARE<br>
                             <i>Offshore company</i>
@@ -37,13 +37,13 @@
 </header>
 
 <section class="py-5">
-    <div class="container-fluid px-5">
+    <div class="container-fluid px-md-5">
         <div class="row gx-5 align-items-center">
-            <div class="col-lg-12">
+            <div class="col-12">
                 <div class="indonesia-country text-center">
                     <h1 class="my-5 f-poppins">
-                        <div class="line-r rounded-start border-end-0"></div>
-                        <div class="line-l rounded-end border-start-0"></div>
+                        <div class="line-r rounded-start border-end-0 d-none d-lg-grid"></div>
+                        <div class="line-l rounded-end border-start-0 d-none d-lg-grid"></div>
                         What makes Delaware a great place for company formation ?
                     </h1>
                 </div>
@@ -59,7 +59,7 @@
                         list</p>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-4">
+                    <div class="col-12 col-sm-8 col-lg-4">
                         <div class="p-2">
                             <div
                                 class="box-price h-auto px-4 mb-5 py-5 f-poppins d-flex align-items-center flex-column mb-3">
