@@ -1,6 +1,6 @@
 <nav class="navbar bg-black">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?= base_url(); ?>">
             <img src="<?= base_url(); ?>assets/images/tracklesscompany-fit.png">
         </a>
         <a href="https://tracklessproject.com" class="bg-trackless me-5" data-bs-toggle="offcanvas"
@@ -17,7 +17,7 @@
 <header class="slider slider-tracklesscompany-1 py-5">
     <div class="container-fluid px-5">
         <div class="row gx-5 align-items-center">
-            <div class="col-lg-6">
+            <div class="col-12 col-lg-6">
                 <!-- Mashead text and app badges-->
                 <div class="mb-5 mb-lg-0 text-center text-lg-start">
                     <h1 class="text-slider-tracklesscompany mb-3 f-poppins">Service</h1>
@@ -36,12 +36,6 @@
                         privacy and a simple incorporation procedure.</p>
                 </div>
             </div>
-            <div class="col-lg-6 d-none d-sm-none d-lg-inline">
-                <!-- Masthead device mockup feature-->
-                <div class="masthead-device-mockup text-center">
-                    <!-- <img class="img-fluid" src="<?= base_url(); ?>assets/images/phone.png" alt=""> -->
-                </div>
-            </div>
         </div>
     </div>
 </header>
@@ -49,11 +43,11 @@
 <section class="py-5">
     <div class="container-fluid px-5">
         <div class="row gx-5 align-items-center">
-            <div class="col-lg-8">
+            <div class="col-12 col-lg-8">
                 <div class="company-country text-center">
                     <h1 class="my-5 f-poppins">PLEASE SELECT COMPANY COUNTRY</h1>
                     <div class="row d-flex justify-content-center align-items-center flex-column">
-                        <div class="col-4 my-3">
+                        <div class="col-12 col-sm-6 col-lg-4 my-3">
                             <a href="<?= base_url('auth/deleware'); ?>" class="btn-indo f-inter py-3 px-5">
                                 DELAWARE<br>
                                 <i>Offshore company</i>
@@ -64,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
+            <div class="col-lg-4 text-center d-none d-lg-grid">
                 <img class="img-ctracklesscompany" src="<?= base_url(); ?>assets/images/img-c1.png" alt="img-c1">
             </div>
         </div>
