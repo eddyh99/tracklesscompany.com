@@ -14,7 +14,7 @@
     </div>
 </nav>
 <!-- Mashead header-->
-<header class="slider slider-tracklesscompany-2 py-5">
+<header class="slider slider-tracklesscompany-3 py-5">
     <div class="container-fluid px-5">
         <div class="row d-flex align-items-center justify-items-center min-hight company-indonesia">
             <div class="col-lg-12">
