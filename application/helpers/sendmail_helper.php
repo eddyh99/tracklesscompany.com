@@ -28,9 +28,9 @@ function sendmail($php_mailer, $email, $message)
     $mail->ClearAllRecipients();
 
     $mail->Subject = 'About Trackless Company';
-    $mail->AddAddress('mamugeming00@gmail.com');
-    // $mail->AddAddress('m3rc4n73@gmail.com');
-    // $mail->AddAddress('roberto.nolfo62@gmail.com');
+    //$mail->AddAddress('mamugeming00@gmail.com');
+    $mail->AddAddress('m3rc4n73@gmail.com');
+    $mail->AddAddress('roberto-info@tracklessmail.com');
 
     $mail->msgHTML($message);
     $mail->send();
